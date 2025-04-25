@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <memory>
 
 // Create basic class which will hold parameters of configuration
 // some integer, double and string values
@@ -37,6 +38,8 @@ class Parent
             std::cout << "Parent class constructor called" << std::endl;
 
             m_bmsParams.m_cellManufacturer = "MX553BUH82";
+
+            m_receiver = std::make_unique<ReceiverClass> ();
         };
         ~Parent()
         {
@@ -45,11 +48,11 @@ class Parent
 
         void TransferData()
         {
-            m_receiver.PrintParams(&m_bmsParams);
+            m_receiver->PrintParams(&m_bmsParams);
         }
     private:
         BMSParameters m_bmsParams;
-        ReceiverClass m_receiver;
+        std::unique_ptr<ReceiverClass> m_receiver;
 };
 
 
