@@ -1,0 +1,25 @@
+This is a example text to be used during the SW development process
+Should provide sample text based on which a word count can be calculated
+and text displayed on output console
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit  
+Integer vitae purus non urna feugiat feugiat  
+Sed at suscipit est  
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas  
+Curabitur id felis mi  
+Donec fermentum viverra augue a pretium magna aliquam id  
+
+Vivamus suscipit risus nec dictum faucibus lacus risus dictum nisi vitae commodo lacus est eu nulla  
+Suspendisse sodales fermentum nunc sed tempor justo facilisis vitae  
+Nullam ac sapien magna  
+Nam ac neque ligula  
+Mauris et augue varius malesuada mi at malesuada lorem  
+Curabitur tristique tincidunt mauris sed tincidunt nulla  
+
+Ut non est libero  
+Vestibulum non neque luctus dapibus augue eget facilisis sem  
+Nunc ac leo justo  
+Suspendisse sed ligula risus  
+In laoreet est at nisl sagittis nec sagittis elit pretium  
+Donec ac posuere ligula  
+Integer ac eros ut nisi varius elementum 
