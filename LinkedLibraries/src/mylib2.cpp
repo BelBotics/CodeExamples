@@ -23,7 +23,7 @@ class Hello : public IHello
     public:
     std::string greet(const std::string& name) override 
     {
-        return "Hello " + name + " from the first library";
+        return "Hello " + name + " but this time from the second library";
     }
 };
     

@@ -130,6 +130,19 @@ mylib/fast:
 .PHONY : mylib/fast
 
 #=============================================================================
+# Target rules for targets named mylib2
+
+# Build rule for target.
+mylib2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mylib2
+.PHONY : mylib2
+
+# fast build rule for target.
+mylib2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib2.dir/build.make CMakeFiles/mylib2.dir/build
+.PHONY : mylib2/fast
+
+#=============================================================================
 # Target rules for targets named my_app
 
 # Build rule for target.
@@ -190,6 +203,30 @@ src/mylib.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/src/mylib.cpp.s
 .PHONY : src/mylib.cpp.s
 
+src/mylib2.o: src/mylib2.cpp.o
+.PHONY : src/mylib2.o
+
+# target to build an object file
+src/mylib2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib2.dir/build.make CMakeFiles/mylib2.dir/src/mylib2.cpp.o
+.PHONY : src/mylib2.cpp.o
+
+src/mylib2.i: src/mylib2.cpp.i
+.PHONY : src/mylib2.i
+
+# target to preprocess a source file
+src/mylib2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib2.dir/build.make CMakeFiles/mylib2.dir/src/mylib2.cpp.i
+.PHONY : src/mylib2.cpp.i
+
+src/mylib2.s: src/mylib2.cpp.s
+.PHONY : src/mylib2.s
+
+# target to generate assembly for a file
+src/mylib2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mylib2.dir/build.make CMakeFiles/mylib2.dir/src/mylib2.cpp.s
+.PHONY : src/mylib2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +237,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... my_app"
 	@echo "... mylib"
+	@echo "... mylib2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... src/mylib.o"
 	@echo "... src/mylib.i"
 	@echo "... src/mylib.s"
+	@echo "... src/mylib2.o"
+	@echo "... src/mylib2.i"
+	@echo "... src/mylib2.s"
 .PHONY : help
 
 

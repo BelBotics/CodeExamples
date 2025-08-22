@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Create the shared library from sources
 add_library(mylib SHARED src/mylib.cpp)
+add_library(mylib2 SHARED src/mylib2.cpp)
 
 # Optionally specify include directories
 #target_include_directories(mylib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)

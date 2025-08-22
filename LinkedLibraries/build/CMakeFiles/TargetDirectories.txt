@@ -1,4 +1,5 @@
 /home/user/Documents/git_repos/CodeExamples/LinkedLibraries/build/CMakeFiles/mylib.dir
+/home/user/Documents/git_repos/CodeExamples/LinkedLibraries/build/CMakeFiles/mylib2.dir
 /home/user/Documents/git_repos/CodeExamples/LinkedLibraries/build/CMakeFiles/my_app.dir
 /home/user/Documents/git_repos/CodeExamples/LinkedLibraries/build/CMakeFiles/edit_cache.dir
 /home/user/Documents/git_repos/CodeExamples/LinkedLibraries/build/CMakeFiles/rebuild_cache.dir
