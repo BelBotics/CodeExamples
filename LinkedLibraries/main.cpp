@@ -29,7 +29,7 @@ int main() {
         break;
     
     default:
-        std::cout << "Wrong library id selection";
+        std::cout << "Wrong library id selection" << std::endl;
         return 0;
         break;
     }
