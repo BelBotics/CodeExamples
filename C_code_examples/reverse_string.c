@@ -2,7 +2,7 @@
 
 void outputRevString(char string[], int len)
 {
-    printf("Input string was %string:", string);
+    printf("\nInput string was %s: ", string);
 
     for(int i = len - 1 ; i >= 0; i--)
     {
