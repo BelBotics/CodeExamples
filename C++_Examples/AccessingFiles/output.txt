@@ -1,0 +1,10 @@
+This is some demo text
+used to demostrate read from file
+It is also required to save all read lines from file
+into another output.txt file
+So that reading and writing to the file are excercised.
+This is some demo text
+used to demostrate read from file
+It is also required to save all read lines from file
+into another output.txt file
+So that reading and writing to the file are excercised.
